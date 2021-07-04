@@ -1,13 +1,14 @@
 :root {
   --primary-color: black;
   --secondary-color: white;
-  --primary-font-family: "Nunito", sans-serif;
+  --primary-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
   --box-shadow: rgba(46, 46, 51, 0.08) 0px 18px 18px 0;
 }
 body {
   margin-top: 0;
   padding: 0, 10px, 10px, 40px;
-  font-family: var(--primary-font);
+  font-family: var(--primary-font-family);
 }
 
 h1,
@@ -16,14 +17,14 @@ h3,
 p {
   text-align: center;
   color: black;
-  font-family: var(--primary-font);
+  font-family: var(--default-font-family);
 }
 h1 {
   margin-top: -75px;
   padding-top: -50px;
 }
 p {
-    font-size: 24px;
+  font-size: 24px;
 }
 .pagetop {
   padding: 200px 0px;
@@ -33,7 +34,7 @@ p {
   height: 250px;
   margin: auto;
   position: static;
-  width: 90%;
+  width: 250%;
   display: grid;
   place-items: left;
   overflow: hidden;
@@ -71,12 +72,15 @@ p {
 .curLogo:hover {
   transform: translateZ(20px);
 }
+* {
+  box-sizing: content-box;
+}
 .slider::before,
 .slider::after {
   content: "";
   height: 100%;
   position: static;
-  width: 15%;
+  width: 25%;
   z-index: 2;
 }
 .slider::before {
@@ -111,16 +115,21 @@ p {
   color: blue;
 }
 .btn-primary {
-    background:rgba(101, 149, 211, 0.08);
+  background: rgba(101, 149, 211, 0.08);
   color: black;
   border: 1px solid rgba(101, 149, 211, 0.08);
   transition: background 200ms ease, border-color 200ms ease;
+  padding: 1px 45px;
+  margin: 0 auto;
+  font-size: 16px;
+  width: 250px;
+  padding-inline: 10px;
 }
 .social-media {
-    width: 150px;
+  width: 150px;
 }
 .footer-text {
-    font-size: 12px;
+  font-size: 12px;
 }
 footer {
   margin: 60px 0;
