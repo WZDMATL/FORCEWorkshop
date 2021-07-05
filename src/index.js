@@ -1,9 +1,7 @@
-function handleSubmit() {
+function emailSubscribe() {
   let name = prompt("What is your name?");
-  let email = document.querySelector("#searchinput").value;
-  submitEmail(email);
-  alert("Thanks, " + name + ", for leaving your email. We'll stay in touch!");
+  alert("Thanks for leaving your email. We'll be in touch, " + name + "!");
 }
 
-let searchForm = document.querySelector("#search");
-searchForm.addEventListener("submit", handleSubmit);
+let subscribeButton = document.querySelector("#subscribe-form");
+subscribeButton.addEventListener("submit", emailSubscribe);

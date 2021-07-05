@@ -7,7 +7,7 @@
 }
 body {
   margin-top: 0;
-  padding: 0, 10px, 10px, 40px;
+  padding: 0, 10px, 10px, 0px;
   font-family: var(--primary-font-family);
 }
 
@@ -118,12 +118,17 @@ p {
   background: rgba(101, 149, 211, 0.08);
   color: black;
   border: 1px solid rgba(101, 149, 211, 0.08);
-  transition: background 200ms ease, border-color 200ms ease;
+  transition: background 500ms ease, border-color 200ms ease;
   padding: 1px 45px;
   margin: 0 auto;
   font-size: 16px;
   width: 250px;
   padding-inline: 10px;
+}
+.btn-primary:hover {
+  background: red;
+  color: white;
+  border: none;
 }
 .social-media {
   width: 150px;
