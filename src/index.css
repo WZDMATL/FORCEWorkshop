@@ -93,7 +93,7 @@ p {
   transform: rotateZ(100deg);
 }
 .navbar {
-  border-bottom: 1px solid rgba(46, 46, 51, 0.08);
+  border-bottom: 1px solid black;
 }
 .navbar-light .navbar-brand {
   color: black;
