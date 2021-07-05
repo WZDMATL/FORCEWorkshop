@@ -147,9 +147,11 @@ footer .social-links a {
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
-  height: 150px;
+  height: 50%;
 }
-
+.social-media {
+  height: 50%;
+}
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
