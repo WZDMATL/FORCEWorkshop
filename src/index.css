@@ -34,7 +34,7 @@ p {
   height: 250px;
   margin: auto;
   position: static;
-  width: 250%;
+  width: 100%;
   display: grid;
   place-items: left;
   overflow: hidden;
