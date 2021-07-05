@@ -93,7 +93,7 @@ p {
   transform: rotateZ(100deg);
 }
 .navbar {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gainsboro;
 }
 .navbar-light .navbar-brand {
   color: black;
