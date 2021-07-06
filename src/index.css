@@ -26,9 +26,16 @@ h1 {
 p {
   font-size: 24px;
 }
+ol {
+  font-family: var(--default-font-family);
+  font-size: 17px;
+}
 .pagetop {
   padding: 200px 0px;
   padding-bottom: 10px;
+}
+.pagetop p {
+  text-align: center;
 }
 .slider {
   height: 250px;
@@ -158,4 +165,19 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+#links-page {
+  margin-top: 150px;
+}
+#links-page h1,
+h2,
+p {
+  font-family: var(--default-font-family);
+  text-align: left;
+}
+#links-page h2 {
+  font-size: 23px;
+}
+#links-page p {
+  font-size: 17px;
 }
