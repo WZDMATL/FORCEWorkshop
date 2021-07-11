@@ -34,7 +34,8 @@ ol {
   padding: 200px 0px;
   padding-bottom: 10px;
 }
-.pagetop p {
+.pagetop p,
+a {
   text-align: center;
 }
 .slider {
@@ -180,4 +181,10 @@ p {
 }
 #links-page p {
   font-size: 17px;
+}
+#sourceLink {
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  color: red;
 }
