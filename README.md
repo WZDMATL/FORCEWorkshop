@@ -163,7 +163,8 @@ The "slider" class holds the scrolling images going across the screen.
 <code>d-flex</code> and <code>justify-content-center</code> are used to teach students how to create fluid, centered images in the footer. Next, <code>text-center</code> is used to also show students how to center text.
 
 
-# Inspect Tips
+# Tips
 
 1. Be sure to right click + inspect your code to console.log() debugging and uncheck properties in css when you want to see exactly how it impacts your code
 2. Play around by editing html when you right click + inspect your code
+3. Always add alt text to your links, and title your images
